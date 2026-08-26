@@ -6,7 +6,7 @@ from scipy.optimize import curve_fit
 G = 9.81
 RIM_HEIGHT = 3.05  # in meters
 
-def parabola()
+def parabola():
     t = np.linspace(0, 1.25, 45)
     v0 = 8.1
     angle = np.radians(53)
