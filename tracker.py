@@ -73,7 +73,7 @@ def plot_results(x_data, y_data, a, b, c, entry_angle):
     plt.show()
 
 if __name__ == '__main__':
-    x_pts, y_pts = get_sample_data()
+    x_pts, y_pts = simulate_shot()
     a, b, c, angle = analyze_shot(x_pts, y_pts)
 
     print(f'Entry Angle: {angle:.2f} degrees')
